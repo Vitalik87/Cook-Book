@@ -20,49 +20,49 @@
 	android:orientation="vertical"> 
 <Button 
 	android:text="								Французская кухня" 
-	android:id="@+id/france_main" 
+	android:id="@+id/France" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Португальская кухня" 
-	android:id="@+id/portugal_main" 
+	android:id="@+id/Portugal" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Испанская кухня" 
-	android:id="@+id/spain_main" 
+	android:id="@+id/Spain" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Немецкая кухня" 
-	android:id="@+id/germany_main" 
+	android:id="@+id/Germany" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Греческая кухня" 
-	android:id="@+id/greece_main" 
+	android:id="@+id/Greece" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Украинская кухня" 
-	android:id="@+id/ukraine_main" 
+	android:id="@+id/Ukraine" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Русская кухня" 
-	android:id="@+id/russia_main" 
+	android:id="@+id/Russia" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
 <Button 
 	android:text="								Итальянская кухня" 
-	android:id="@+id/italy_main" 
+	android:id="@+id/Italy" 
 	android:layout_height="100dp" 
 	android:layout_width="310dp"> 
 </Button> 
