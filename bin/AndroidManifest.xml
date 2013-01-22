@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tichenko.prepare"
+    android:versionCode="1"
+    android:versionName="1.0" android:sharedUserLabel="@drawable/cooking">
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" /> 
+    <application 
+        android:icon="@drawable/cooking" 
+        android:label="@menu/activity_main" 
+        android:theme="@style/AppTheme" 
+        android:allowTaskReparenting="false">
+        <activity 
+            android:name=".main.Cookbook" 
+            android:label="@menu/activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+         <activity  android:name="france_main">
+        </activity>
+        <activity  android:name="portugal_main">
+        </activity>
+        <activity  android:name="spain_main">
+        </activity>
+        <activity  android:name="germany_main">
+        </activity>
+        <activity  android:name="greece_main">
+        </activity>
+        <activity  android:name="ukraine_main">
+        </activity>
+        <activity  android:name="russia_main">
+        </activity>
+        <activity  android:name="italy_main">
+        </activity>
+        <activity  android:name="recipe_main">
+        </activity>
+    </application>
+</manifest>

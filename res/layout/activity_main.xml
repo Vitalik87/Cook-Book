@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+<TextView 
+	android:id="@+id/textView1" 
+	android:layout_gravity="top|center_horizontal"
+	android:layout_width="320dp" 
+	android:layout_height="100dp" 
+	android:text="								Книга рецептов"> 
+</TextView>
+<LinearLayout 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout1" 
+	android:orientation="vertical"> 
+<Button 
+	android:text="								Французская кухня" 
+	android:id="@+id/france_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Португальская кухня" 
+	android:id="@+id/portugal_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Испанская кухня" 
+	android:id="@+id/spain_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Немецкая кухня" 
+	android:id="@+id/germany_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Греческая кухня" 
+	android:id="@+id/greece_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Украинская кухня" 
+	android:id="@+id/ukraine_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Русская кухня" 
+	android:id="@+id/russia_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+<Button 
+	android:text="								Итальянская кухня" 
+	android:id="@+id/italy_main" 
+	android:layout_height="100dp" 
+	android:layout_width="310dp"> 
+</Button> 
+	</LinearLayout>
+</LinearLayout>
