@@ -31,21 +31,21 @@ public class SelectYourCountry extends Activity implements OnClickListener {
 	  super.onCreate(savedInstanceState); 
 	     setContentView(R.layout.activity_main);     
 	 
-	   btnFrance = (Button)findViewById(R.id.france_main);
+	   btnFrance = (Button)findViewById(R.id.France);
 	   btnFrance.setOnClickListener(this);
-	   btnPortugal = (Button)findViewById(R.id.portugal_main);
+	   btnPortugal = (Button)findViewById(R.id.Portugal);
 	   btnPortugal.setOnClickListener(this);
-	   btnSpain = (Button)findViewById(R.id.spain_main);
+	   btnSpain = (Button)findViewById(R.id.Spain);
 	   btnSpain.setOnClickListener(this);
-	   btnGermany = (Button)findViewById(R.id.germany_main);
+	   btnGermany = (Button)findViewById(R.id.Germany);
 	   btnGermany.setOnClickListener(this);
-	   btnGreece = (Button)findViewById(R.id.greece_main);
+	   btnGreece = (Button)findViewById(R.id.Greece);
 	   btnGreece.setOnClickListener(this);
-	   btnUkraine = (Button)findViewById(R.id.ukraine_main);
+	   btnUkraine = (Button)findViewById(R.id.Ukraine);
 	   btnUkraine.setOnClickListener(this);
-	   btnRussia = (Button)findViewById(R.id.russia_main);
+	   btnRussia = (Button)findViewById(R.id.Russia);
 	   btnRussia.setOnClickListener(this);
-	   btnItaly = (Button)findViewById(R.id.italy_main);
+	   btnItaly = (Button)findViewById(R.id.Italy);
 	   btnItaly.setOnClickListener(this);	  
 } 	
 	   public void onClick(View v) {
