@@ -18,23 +18,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             </activity>
-         <activity  android:name="france_main">
+         <activity  android:name=".main.France">
         </activity>
-        <activity  android:name="portugal_main">
+        <activity  android:name=".main.Portugal">
         </activity>
-        <activity  android:name="spain_main">
+        <activity  android:name=".main.Spain">
         </activity>
-        <activity  android:name="germany_main">
+        <activity  android:name=".main.Germany">
         </activity>
-        <activity  android:name="greece_main">
+        <activity  android:name=".main.Greece">
         </activity>
-        <activity  android:name="ukraine_main">
+        <activity  android:name=".main.Ukraine">
         </activity>
-        <activity  android:name="russia_main">
+        <activity  android:name=".main.Russia">
         </activity>
-        <activity  android:name="italy_main">
+        <activity  android:name=".main.Italy">
         </activity>
-        <activity  android:name="recipe_main">
+        <activity  android:name=".main.Recipe">
         </activity>
     </application>
 </manifest>
